@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.DrunkenException;
-import PubExceptions.StomachException;
+import pubExceptions.DrunkenException;
+import pubExceptions.StomachException;
 
 /**
  *  This class represent a typical guest of a pub.

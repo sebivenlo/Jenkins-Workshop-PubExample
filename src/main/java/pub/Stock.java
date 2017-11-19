@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.EmptyStockException;
-import PubExceptions.OverflowedStockException;
+import pubExceptions.EmptyStockException;
+import pubExceptions.OverflowedStockException;
 
 /**
  * This class represents a stock. It has a maximal volume and from this volume a

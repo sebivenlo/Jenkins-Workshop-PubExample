@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.InvalidTimeException;
+import pub.Time;
+import pubExceptions.InvalidTimeException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

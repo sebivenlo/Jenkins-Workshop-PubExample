@@ -3,9 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.DrunkenException;
+import pub.DrinkVolume;
+import pub.Pub;
+import pub.Guest;
+import pubExceptions.DrunkenException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;

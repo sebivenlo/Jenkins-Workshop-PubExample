@@ -3,10 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.EmptyStockException;
-import PubExceptions.OverflowedStockException;
+import pub.Beer;
+import pub.DrinkVolume;
+import pub.Time;
+import pub.Stock;
+import pubExceptions.EmptyStockException;
+import pubExceptions.OverflowedStockException;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;

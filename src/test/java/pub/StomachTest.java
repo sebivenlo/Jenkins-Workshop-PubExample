@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.StomachException;
+import pub.DrinkVolume;
+import pub.Stomach;
+import pubExceptions.StomachException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

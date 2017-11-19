@@ -3,11 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pub;
+package pub;
 
-import PubExceptions.BobException;
-import PubExceptions.EmptyStockException;
-import PubExceptions.TooYoungException;
+import pub.DrinkVolume;
+import pub.Guest;
+import pub.Barkeeper;
+import pub.Stock;
+import pubExceptions.BobException;
+import pubExceptions.EmptyStockException;
+import pubExceptions.TooYoungException;
 import java.util.EmptyStackException;
 import org.junit.Test;
 import static org.junit.Assert.*;

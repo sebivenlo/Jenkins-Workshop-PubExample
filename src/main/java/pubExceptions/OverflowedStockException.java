@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PubExceptions;
+package pubExceptions;
 
 /**
  * This exception should be thrown when an object tries to fill the stock but 
