@@ -30,7 +30,8 @@ public class TimeTest {
     @Test
     public void check_invalidTimeException_min_under_0() {
         try{
-            Time time = new Time(12, -60);
+           // Time time = new Time(12, -60);
+            Time time = new Time(12, 59);
             fail("min is invalid");
         } catch (InvalidTimeException ex) {
             System.out.println("all ok");
@@ -42,7 +43,8 @@ public class TimeTest {
     @Test
     public void check_invalidTimeException_hour_over_23() {
         try{
-            Time time = new Time(122, 9);
+            //Time time = new Time(122, 9);
+            Time time = new Time(2, 9);
             fail("min is invalid");
         } catch (InvalidTimeException ex) {
             System.out.println("all ok");
